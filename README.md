@@ -8,7 +8,7 @@ This is a self-directed curriculum built from the lowest useful abstraction upwa
 
 Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to May 2026, completed May 2026, alongside Git and GitHub, completed mid-May 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026. The current focus, started Sep 2026, is Combinational Circuits and Sequential Circuits, with an active side build for the Back-2-School Challenge.
 
-Phase 2 is FPGA and architecture: Basys3 and Vivado, SystemVerilog, Patterson and Hennessy 1-4, gem5, AMBA, pipelined CPU on FPGA. Phase 3 is a RISC-V RV32I core with pipelining, hazards, and UVM verification. Phase 4 is VLSI and tapeout: coherence, high-speed interfaces, chiplets, physical design, OpenLane.
+Phase 2 through Phase 4 are mapped below. Dates are added as each item is completed.
 
 Dates below are actual completions. Items move from Next to Now to Log with dates. Hardware builds get their own repos, linked under Projects.
 
@@ -43,9 +43,36 @@ Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 - [ ] FSM Traffic Light Controller in Verilog
 - [ ] UART Transmitter in Verilog
 
-## Later
+## Phase 2 — FPGA and Computer Architecture
 
-Phase 2 — FPGA and architecture. Phase 3 — RISC-V core and UVM. Phase 4 — VLSI and OpenLane tapeout.
+- [ ] Basys3 and Vivado workflow
+- [ ] SystemVerilog
+- [ ] Patterson and Hennessy Chapters 1 to 4
+- [ ] gem5 basics
+- [ ] AMBA protocols
+- [ ] Pipelined CPU on FPGA
+
+## Phase 3 — Advanced Design
+
+- [ ] RISC-V RV32I in SystemVerilog
+- [ ] Pipelining with hazard detection
+- [ ] Run RISC-V on Basys3 FPGA
+- [ ] Custom RISC-V ISA extension
+- [ ] UVM Basics
+- [ ] UVM Advanced — scoreboards, coverage, constrained random
+- [ ] 8 to 10 fully documented projects on GitHub
+
+## Phase 4 — VLSI and Advanced Architecture
+
+- [ ] Cache coherence — MESI protocol
+- [ ] High speed interfaces — PCIe, DDR5, AXI
+- [ ] HBM and memory architecture — HBM3, LPDDR5
+- [ ] Chiplet design — UCIe standard
+- [ ] Branch prediction techniques
+- [ ] Out-of-order execution concepts
+- [ ] Design space exploration project using gem5
+- [ ] Memory hierarchy optimization study
+- [ ] Accelerator design — small NN inference engine or similar
 
 ## Projects
 
