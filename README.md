@@ -6,7 +6,7 @@ A public log of building electrical engineering and computer science fundamental
 
 This is a self-directed curriculum built from the lowest useful abstraction upward. The premise: durable hardware understanding comes from reconstructing each layer, so software first, then digital logic, then RTL, then FPGA and architecture, then verification and VLSI.
 
-Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to May 2026, completed May 2026, alongside Git and GitHub, completed mid-May 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026. The current focus, started Sep 2026, is Combinational Circuits and Sequential Circuits, with an active side build for the Back-2-School Challenge.
+Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to May 2026, completed May 2026, alongside Git and GitHub, completed mid-May 2026, and Linux Command Line, completed May 23, 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026, then Combinational Circuits, completed Sep 14, 2026. The current focus, started Sep 2026, is Sequential Circuits, with an active side build for the Back-2-School Challenge.
 
 Phase 2 through Phase 4 are mapped below. Dates are added as each item is completed.
 
@@ -14,7 +14,6 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 
 ## Now — Sep 2026
 
-- [ ] Combinational Circuits — in progress, started Sep 2026
 - [ ] Sequential Circuits — in progress, started Sep 2026
 - [ ] Back-2-School Challenge — active build
 
@@ -24,9 +23,11 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 - [x] Python Intermediate — Jan 17, 2026
 - [x] C++ Basics to Advanced — May 2026, work done Apr to May 2026
 - [x] Git and GitHub — mid-May 2026
+- [x] Linux Command Line — May 23, 2026
 - [x] Python NumPy and DSA — Jun 4, 2026
 - [x] Boolean Algebra — Jul 17, 2026
 - [x] C++ Deep, learncpp.com full walkthrough — Aug 30, 2026
+- [x] Combinational Circuits — Sep 14, 2026
 
 Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 
