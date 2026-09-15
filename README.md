@@ -46,12 +46,23 @@ Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 
 ## Phase 2 — FPGA and Computer Architecture
 
-- [ ] Basys3 and Vivado workflow
-- [ ] SystemVerilog
-- [ ] Patterson and Hennessy Chapters 1 to 4
-- [ ] gem5 basics
-- [ ] AMBA protocols
-- [ ] Pipelined CPU on FPGA
+- [ ] Basys3 FPGA + Xilinx Vivado workflow
+- [ ] SystemVerilog — interfaces, structs, enums, logic vs reg vs wire
+- [ ] 7-Segment Display Controller on FPGA
+- [ ] PWM Controller on FPGA
+- [ ] SystemVerilog — classes, objects, verification basics
+- [ ] VGA Display Driver on FPGA
+- [ ] Patterson and Hennessy Ch1-4
+- [ ] Simple 3-Stage Pipelined CPU on FPGA
+- [ ] AMBA Protocols — AXI, AHB, APB
+- [ ] gem5 simulator setup
+- [ ] Basic performance modeling — IPC, cache hit rate analysis
+- [ ] 250 LeetCode Problems total (50 from Phase 1 + 200 in Phase 2)
+
+Standards for Phase 2:
+- Every project on GitHub with README and waveform screenshots
+- Weekly reading — Semiconductor Engineering, WikiChip, IEEE Spectrum
+- Company awareness — ASML, NVIDIA, NXP, Intel, AMD, ARM, Qualcomm
 
 ## Phase 3 — Advanced Design
 
