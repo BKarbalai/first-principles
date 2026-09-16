@@ -39,7 +39,6 @@ Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 - [ ] Discrete Math
 - [ ] Fourier Transform
 - [ ] HDLBits and Verilog
-- [ ] 50 LeetCode Problems
 - [ ] 4-bit ALU in Verilog
 - [ ] FSM Traffic Light Controller in Verilog
 - [ ] UART Transmitter in Verilog
@@ -57,7 +56,7 @@ Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 - [ ] AMBA Protocols — AXI, AHB, APB
 - [ ] gem5 simulator setup
 - [ ] Basic performance modeling — IPC, cache hit rate analysis
-- [ ] 250 LeetCode Problems total (50 from Phase 1 + 200 in Phase 2)
+- [ ] 50 LeetCode Problems
 
 Standards for Phase 2:
 - Every project on GitHub with README and waveform screenshots
