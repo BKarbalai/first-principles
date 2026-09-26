@@ -85,6 +85,6 @@ Standards for Phase 2:
 - [ ] Memory hierarchy optimization study
 - [ ] Accelerator design — small NN inference engine or similar
 
-## Projects
+## Current Projects
 
 - Back-2-School Challenge — in progress. Repository and demo link will be added here on completion.
