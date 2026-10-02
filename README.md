@@ -87,4 +87,4 @@ Standards for Phase 2:
 
 ## Current Projects
 
-- Back-2-School Challenge — in progress. Repository and demo link will be added here on completion.
+- Codédex September challenge - A student OS horizonprime.vercel.app
