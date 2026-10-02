@@ -87,5 +87,5 @@ Standards for Phase 2:
 
 ## Current Projects
 
-- Codédex September challenge - A student OS [Visit HorizonPrime](https://vercel.app)
+- Codédex September challenge - A student OS [Visit HorizonPrime](https://horizonprime.vercel.app)
 
