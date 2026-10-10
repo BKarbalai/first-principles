@@ -73,6 +73,12 @@ Standards for Phase 2:
 - [ ] UVM Advanced — scoreboards, coverage, constrained random
 - [ ] 8 to 10 fully documented projects on GitHub
 
+Math and circuits bridge:
+
+- [ ] Series, Taylor series, Euler's formula, phasors (2 weeks)
+- [ ] Circuit analysis: nodal/mesh, Thevenin/Norton, RC/RL/RLC, op-amps (3 weeks)
+- [ ] Second-order ODEs and Laplace (3 weeks)
+
 ## Phase 4 — VLSI and Advanced Architecture
 
 - [ ] Cache coherence — MESI protocol
