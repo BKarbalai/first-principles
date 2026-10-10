@@ -21,7 +21,8 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 
 - [x] Python 101 — Dec 24, 2025
 - [x] Python Intermediate — Jan 17, 2026
-- [x] C++ Basics to Advanced — May 2026, work done Apr to May 2026 — notes: [cpp-advanced-notes/](cpp-advanced-notes/)
+- [x] C++ Basics — Apr 2026 (part of Basics to Advanced, Apr to May 2026)
+- [x] C++ Advanced — May 2026 — notes: [cpp-advanced-notes/](cpp-advanced-notes/)
 - [x] Git and GitHub — mid-May 2026
 - [x] Linux Command Line — May 23, 2026
 - [x] Python NumPy and DSA — Jun 4, 2026
@@ -86,7 +87,5 @@ Standards for Phase 2:
 - [ ] Accelerator design — small NN inference engine or similar
 
 ## Current Projects
-
-- Codédex September challenge - A student OS [Visit HorizonPrime](https://horizonprime.vercel.app)
 
 - Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 — submitted, awaiting result. Live: https://horizonprime.vercel.app

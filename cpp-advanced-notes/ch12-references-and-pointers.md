@@ -48,3 +48,6 @@ Related: [12.1 Introduction to compound data types](https://learncpp.com/cpp-tut
 - **Lifetime is the whole game.** References and pointers don't own anything. Both ways of getting UB (dangling reference, dangling pointer) come from the thing they refer to dying first. The ref qualifiers lesson (15.10) is a more subtle version of the same bug.
 - **Hardware link:** a pointer to a memory-mapped register is exactly "an address you dereference." Embedded code uses `volatile uint32_t*` for this. Same mechanics as chapter 12, plus `volatile` to stop the compiler optimizing away reads/writes.
 - **Quick test for yourself:** which of `const int&`, `int&`, `const int*` can bind to the literal `5` / take its address? (Only `const int&` can bind to `5`. You can't take `&5`.)
+
+---
+[Index](README.md) | [Next →](ch13-enums-and-structs.md)

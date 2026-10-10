@@ -42,3 +42,6 @@ Expected output looks like: `Mort the zombie has 61 hit points and says *growl*.
 - **Static members and hardware:** a `static` counter or shared config in a driver class is a common way to track "how many instances of this peripheral are open".
 - **Ref qualifier takeaway:** returning `const T&` from a getter is the normal choice and is fine on named objects. The danger is only saving that reference from a *temporary*.
 - **Check yourself:** why can't a `static` member function read a normal data member? (No `this` pointer, so no object to read it from.)
+
+---
+[← Prev](ch14-intro-to-classes.md) | [Index](README.md) | [Next →](ch16-vectors-and-containers.md)

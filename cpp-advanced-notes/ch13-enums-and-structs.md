@@ -48,3 +48,6 @@ Related: [13.1 Introduction to program-defined types](https://www.learncpp.com/c
 - **Padding matters in hardware work.** When mapping a struct onto a hardware register block or a network/wire format, padding can silently break the layout. Order members largest-to-smallest to minimize padding, and check with `sizeof`/`static_assert`.
 - **Designated initializers are great for config structs** (e.g. peripheral settings): `Config{ .baud = 115200, .parity = false }` reads like documentation.
 - **Aggregate ≠ aggregation.** Aggregate = brace-initializable type (this chapter). Aggregation = has-a relationship without ownership (chapter 23).
+
+---
+[← Prev](ch12-references-and-pointers.md) | [Index](README.md) | [Next →](ch14-intro-to-classes.md)

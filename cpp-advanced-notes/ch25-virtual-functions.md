@@ -46,3 +46,6 @@ Related lessons: [25.2 Virtual functions and polymorphism](https://www.learncpp.
 - **Embedded/hardware angle:** virtual calls cost an extra pointer per object plus an indirect call. On tiny microcontrollers (ESP32, STM32) with small RAM, that matters. Interface classes (like a generic `IDriver` or `ISensor`) are still a clean way to swap hardware backends without changing the calling code.
 - **`dynamic_cast` is a design smell if overused.** Needing it a lot often means the base interface is missing a virtual function. It also needs RTTI, which some embedded builds turn off.
 - **Slicing + containers:** `std::vector<Base>` slices everything you put in. That's why exercise 2c stores pointers (or smart pointers).
+
+---
+[← Prev](ch23-object-relationships.md) | [Index](README.md)

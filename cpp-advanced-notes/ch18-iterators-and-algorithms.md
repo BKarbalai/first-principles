@@ -45,3 +45,6 @@ This lesson has no quiz. Self-check questions:
 - **Micro-benchmark gotcha:** the compiler can optimize away work whose result you never use, so make sure your timed code's output is used (e.g. print or accumulate it).
 - **Embedded/hardware version of this lesson:** on a microcontroller you'd time with a hardware timer or cycle counter (e.g. the ARM Cortex-M DWT cycle count) instead of `<chrono>`. The same rules apply: repeat runs, compare variants, and watch for interrupts adding noise.
 - **Habit to build:** measure first, optimize second. Don't assume the "clever" version is faster.
+
+---
+[← Prev](ch17-fixed-size-arrays.md) | [Index](README.md) | [Next →](ch19-dynamic-allocation.md)

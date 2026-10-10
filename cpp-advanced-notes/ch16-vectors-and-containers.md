@@ -72,3 +72,6 @@ Lessons you studied: [16.10 std::vector resizing and capacity](https://www.learn
 - **Range-for with `const auto&`** is almost always the right default. Plain `auto` copies every element (cheap for `int`, costly for `std::string`).
 - **Embedded angle:** `std::vector` uses heap allocation and reallocation, which many microcontroller projects avoid (fragmentation, unpredictable timing). That's why `std::array` (chapter 17) is the usual embedded choice, or `reserve()` once up front.
 - **Why `vector<bool>` is a trap:** `for (auto& b : vecBool)` won't compile because there's no real `bool&` to bind to. Use `std::vector<char>`/`std::bitset` instead.
+
+---
+[← Prev](ch15-more-on-classes.md) | [Index](README.md) | [Next →](ch17-fixed-size-arrays.md)

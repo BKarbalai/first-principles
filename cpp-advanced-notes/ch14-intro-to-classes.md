@@ -48,3 +48,6 @@ Related: [14.17 Constexpr aggregates and classes](https://www.learncpp.com/cpp-t
 - **Initializer-list order gotcha:** members are initialized in *declaration* order, not the order you write in the list. The compiler warns when they differ. Keep them matching.
 - **Pairing with chapter 15:** the hidden `this` pointer is how member functions know which object they're on. Chapter 15 builds directly on `const` member functions and constructors.
 - **Hardware link:** classes with a private register/state and a small public interface are the standard way to wrap a peripheral driver (UART, SPI, GPIO). The invariant might be "peripheral is configured before use".
+
+---
+[← Prev](ch13-enums-and-structs.md) | [Index](README.md) | [Next →](ch15-more-on-classes.md)

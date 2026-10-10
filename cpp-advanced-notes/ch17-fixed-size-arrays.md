@@ -61,3 +61,6 @@ Lessons you studied: [17.5 Arrays of references via std::reference_wrapper](http
 - **Enum-indexed parallel arrays + `static_assert`** (the potion shop pattern) is a clean way to build lookup tables. It's very common in embedded code (state-name tables, register maps).
 - **Embedded angle:** `constexpr std::array` data lives in flash with zero runtime cost. A `std::vector` allocates on the heap. On a microcontroller, prefer `std::array`.
 - **Self-test:** why does `std::size(ptr)` fail to compile on a decayed array? (A pointer carries no length, so the compiler refuses instead of silently giving a wrong answer, unlike the old `sizeof(a)/sizeof(a[0])` trick.)
+
+---
+[← Prev](ch16-vectors-and-containers.md) | [Index](README.md) | [Next →](ch18-iterators-and-algorithms.md)

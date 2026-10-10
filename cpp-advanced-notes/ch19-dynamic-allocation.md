@@ -40,3 +40,6 @@ A **void pointer** is about the pointer's **type**: it can point to any type but
 - **Always pair a `void*` with the information needed to recover its type** (tag, size, or callback that knows it). A bare `void*` is a bug waiting to happen.
 - **Chapter 19 big picture** (the lessons around this one): `new`/`delete` allocate and free heap memory. Every `new` needs exactly one matching `delete` (or use `std::unique_ptr` so you can't forget). Leaks and dangling pointers are the main risks, same lifetime theme as chapter 12.
 - **Quick check:** why can't you do `voidPtr + 1`? (Pointer arithmetic scales by the pointed-to type's size, and `void` has no size.)
+
+---
+[← Prev](ch18-iterators-and-algorithms.md) | [Index](README.md) | [Next →](ch23-object-relationships.md)

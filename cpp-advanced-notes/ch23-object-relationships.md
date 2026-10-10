@@ -40,3 +40,6 @@ Related lessons: [23.2 Composition](https://www.learncpp.com/cpp-tutorial/compos
 - **Hardware analogy:** a PCB *composes* its copper traces (no board, no traces). It *aggregates* a socketed CPU or removable chip (you can pull it out and use it elsewhere). A scope probe is an *association* with whatever you test. A bench power supply used for one measurement is a *dependency*.
 - **Don't confuse** "aggregation" (this chapter) with "aggregate" (a struct or array initializable with braces). Different things, similar names.
 - **Gotcha:** an aggregation using raw pointers can leave dangling pointers if the part is destroyed before the whole. Composition avoids this because the whole controls the part's lifetime.
+
+---
+[← Prev](ch19-dynamic-allocation.md) | [Index](README.md) | [Next →](ch25-virtual-functions.md)
