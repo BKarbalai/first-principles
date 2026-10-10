@@ -15,13 +15,13 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 ## Now — Sep 2026
 
 - [ ] Sequential Circuits — in progress, started Sep 2026
-- [ ] Back-2-School Challenge — active build
+- [ ] Horizon — Student OS (Back-2-School Challenge entry) — submitted, awaiting result. Live: https://horizonprime.vercel.app
 
 ## Log — Phase 1: Foundations
 
 - [x] Python 101 — Dec 24, 2025
 - [x] Python Intermediate — Jan 17, 2026
-- [x] C++ Basics to Advanced — May 2026, work done Apr to May 2026
+- [x] C++ Basics to Advanced — May 2026, work done Apr to May 2026 — notes: [cpp-advanced-notes/](cpp-advanced-notes/)
 - [x] Git and GitHub — mid-May 2026
 - [x] Linux Command Line — May 23, 2026
 - [x] Python NumPy and DSA — Jun 4, 2026
@@ -87,4 +87,4 @@ Standards for Phase 2:
 
 ## Projects
 
-- Back-2-School Challenge — in progress. Repository and demo link will be added here on completion.
+- Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 — submitted, awaiting result. Live: https://horizonprime.vercel.app
