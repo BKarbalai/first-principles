@@ -12,10 +12,9 @@ Phase 2 through Phase 4 are mapped below. Dates are added as each item is comple
 
 Dates below are actual completions. Items move from Next to Now to Log with dates. Hardware builds get their own repos, linked under Projects.
 
-## Now — Sep 2026
+## Now — Oct 2026
 
-- [ ] Sequential Circuits — in progress, started Sep 2026
-- [ ] Horizon — Student OS (Back-2-School Challenge entry) — submitted, awaiting result. Live: https://horizonprime.vercel.app
+- [ ] Sequential Circuits — in progress, started Oct 2026
 
 ## Log — Phase 1: Foundations
 
@@ -88,4 +87,4 @@ Standards for Phase 2:
 
 ## Current Projects
 
-- Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 — submitted, awaiting result. Live: https://horizonprime.vercel.app
+- Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 Live: https://horizonprime.vercel.app
