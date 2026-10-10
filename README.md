@@ -85,6 +85,8 @@ Standards for Phase 2:
 - [ ] Memory hierarchy optimization study
 - [ ] Accelerator design — small NN inference engine or similar
 
-## Projects
+## Current Projects
+
+- Codédex September challenge - A student OS [Visit HorizonPrime](https://horizonprime.vercel.app)
 
 - Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 — submitted, awaiting result. Live: https://horizonprime.vercel.app
