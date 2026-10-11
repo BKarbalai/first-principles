@@ -18,13 +18,13 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 
 ## Log — Phase 1: Foundations
 
-- [x] Python 101 — Dec 24, 2025
+- [x] Python 101 — Dec 24, 2025 — notes: [python-101-notes/](python-101-notes/)
 - [x] Python Intermediate — Jan 17, 2026
 - [x] C++ Basics — Apr 2026 — notes: [cpp-basics-notes/cheatsheet-1.md](cpp-basics-notes/cheatsheet-1.md)
 - [x] C++ Advanced — early May 2026 — notes: [cpp-basics-notes/cheatsheet-2.md](cpp-basics-notes/cheatsheet-2.md)
-- [x] Git and GitHub — mid-May 2026
-- [x] Linux Command Line — May 23, 2026
-- [x] Python NumPy and DSA — Jun 4, 2026
+- [x] Git and GitHub — mid-May 2026 — notes: [git-github-notes/](git-github-notes/)
+- [x] Linux Command Line — May 23, 2026 — notes: [cmd-line-notes/](cmd-line-notes/)
+- [x] Python NumPy and DSA — Jun 4, 2026 — notes: [python-numpy-notes/](python-numpy-notes/)
 - [x] Boolean Algebra — Jul 17, 2026
 - [x] C++ Deep, learncpp.com full walkthrough — Aug 30, 2026 — notes: [cpp-deep-notes/](cpp-deep-notes/)
 - [x] Combinational Circuits — Sep 14, 2026
