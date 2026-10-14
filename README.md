@@ -29,7 +29,7 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 - [x] Boolean Algebra — Jul 17, 2026
 - [x] C++ Deep, learncpp.com full walkthrough — Aug 30, 2026 — notes: [cpp-deep-notes/](cpp-deep-notes/)
 - [x] Combinational Circuits — Sep 14, 2026
-- [x] Sequential Circuits — Oct 2026
+- [x] Sequential Circuits — Oct 15, 2026
 
 Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
 
