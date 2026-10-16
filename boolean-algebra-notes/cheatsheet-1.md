@@ -1,117 +1,169 @@
-# Cheatsheet 1: Boolean Algebra, SOP/POS
+# Cheatsheet 1: Gates, Rules, SOP/POS
 
 Source: Neso Academy Digital Electronics, videos 1-10. Notes for Boolean Algebra (Jul 17, 2026).
 
-## Ops and Precedence
+## 1. Start Here
 
-- `+` = OR, juxtaposition (AB) = AND, `'` = NOT.
-- Order: brackets, NOT, AND, OR.
-- XOR = `A'B + AB'` (differ). XNOR = `AB + A'B'` (equal).
+Digital = only `0` (OFF) and `1` (ON). Inputs `A, B, C...`, output `Y` or `F`.
+
+Boolean algebra = write circuit as formula, then make it shorter. Shorter = fewer gates = cheaper, faster, smaller.
+
+| Symbol | Name | Example |
+|---|---|---|
+| `+` | OR | `A + B` |
+| `·` / nothing | AND | `A·B` or `AB` |
+| `'` | NOT | `A'` |
+| `( )` | do first | `A(B + C)` |
+
+## 2. Gates and Truth Tables
+
+AND: 1 only if both are 1. OR: 0 only if both are 0. NOT: flips.
+
+| A | B | AND | OR |
+|---|---|---|---|
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
+
+| A | B | NAND | NOR | XOR | XNOR |
+|---|---|---|---|---|---|
+| 0 | 0 | 1 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 | 0 | 1 |
+
+- NAND = AND then NOT. NOR = OR then NOT.
+- XOR = 1 when different: `A'B + AB'`.
+- XNOR = 1 when same: `AB + A'B'`.
 - NAND and NOR are universal.
 
-## Identities
+Order: brackets, NOT, AND, OR.
 
-| Name | OR | AND |
-|---|---|---|
-| Identity | `A + 0 = A` | `A . 1 = A` |
-| Null | `A + 1 = 1` | `A . 0 = 0` |
-| Idempotent | `A + A = A` | `A . A = A` |
-| Complement | `A + A' = 1` | `A . A' = 0` |
-| Involution | `(A')' = A` | — |
+```text
+A=0, B=1, C=0, Y = A + B·C'
+C' = 1, B·C' = 1, A + 1 = 1
+```
 
-## Laws
+## 3. Rules
 
-| Law | Form |
+| Rule | Why |
 |---|---|
-| Commutative | `A+B = B+A`, `AB = BA` |
-| Associative | `(A+B)+C = A+(B+C)`, `(AB)C = A(BC)` |
-| Distributive | `A(B+C) = AB+AC`, `A+BC = (A+B)(A+C)` |
+| `A + 0 = A` | OR with 0 changes nothing |
+| `A · 1 = A` | AND with 1 changes nothing |
+| `A + 1 = 1` | one 1 is enough |
+| `A · 0 = 0` | one 0 ruins AND |
+| `A + A = A` | same thing twice |
+| `A · A = A` | same |
+| `A + A' = 1` | one must be 1 |
+| `A · A' = 0` | never both 1 |
+| `(A')' = A` | flip twice |
 
-Dual: swap `+`/`.` and `0`/`1`. True stays true. Dual != complement.
-
-## Absorption (most used)
-
-```text
-A + AB = A
-A(A + B) = A
-A + A'B = A + B
-A(A' + B) = AB
-AB + AB' = A
-(A+B)(A+B') = A
-```
-
-## De Morgan
+Rearranging:
 
 ```text
-(A + B)' = A' . B'
-(AB)' = A' + B'
+A + B = B + A, AB = BA
+(A + B) + C = A + (B + C), (AB)C = A(BC)
+A(B + C) = AB + AC
+A + BC = (A + B)(A + C)   # new, no normal-maths equivalent
 ```
 
-Break the bar, flip the sign, complement each literal.
+Shortcuts:
 
-## Simplify — Game Plan
+| Shortcut | Why |
+|---|---|
+| `AB + AB' = A` | B doesn't matter |
+| `A + AB = A` | AB adds nothing |
+| `A + A'B = A + B` | if A=0, left = B |
 
-1. Factor common term.
-2. Hunt `X + X' = 1`, `X . X' = 0`.
-3. Try absorption and `A + A'B = A + B`.
-4. `(A+...)(A+...)` → use `A+BC = (A+B)(A+C)` backwards.
-5. Long bars → De Morgan first.
-6. Check consensus (below).
+De Morgan — break bar, flip sign:
 
 ```text
-AB + AB' = A
-A + A'B + AB' = A + B        # A+A'B = A+B, then absorb AB'
-(A+B)(A+B')(A'+C) = AC       # first two give A, then A(A'+C)
-[(A'+B)(A+C')]' = AB' + A'C  # De Morgan twice
+(A + B)' = A' · B'
+(A · B)' = A' + B'
+(A + B + C)' = A'B'C'
 ```
 
-## Redundancy (Consensus) Theorem
+## 4. Simplifying
+
+Game plan: factor → look for `X+X'=1` → shortcuts → De Morgan first if long bar.
+
+```text
+AB + AB' = A(B+B') = A
+A + A'B + AB' = (A+B) + AB' = A + B
+A'B'C + A'BC + AB'C + ABC = C, factor C then group
+(A+B)(A+B')(A'+C) = A(A'+C) = AC
+(A'B + CD')' = (A+B')(C'+D)
+```
+
+Watch out: `(A+B)' = A'B'`, not `A'+B'`. `A·A'=0`, `A+A'=1`, `A+A=A`. `AB=AC` does not mean `B=C`.
+
+## 5. Redundancy Theorem
 
 ```text
 AB + A'C + BC = AB + A'C
 (A+B)(A'+C)(B+C) = (A+B)(A'+C)
 ```
 
-- Find opposite pair (`A` vs `A'`), join the rest → consensus term.
-- If consensus is present, delete it.
+Spot it: opposite pair (`A` / `A'`), join leftovers (`B`,`C` → `BC`). If present, delete.
 
 ```text
-AB' + BC + AC = AB' + BC     # consensus of AB', BC is AC
-XY + X'Z + YZW = XY + X'Z     # YZW contains YZ, also redundant
+AB + A'C + BC → AB + A'C
+AB' + BC + AC → AB' + BC
 ```
 
-## SOP and POS
+## 6. SOP and POS
 
-- Product term: AND (`AB'C`). Sum term: OR (`A+B'+C`).
-- SOP = OR of products. POS = AND of sums.
-- Minterm `m_i`: AND of all vars, 1 on exactly one row. Bit 1 → plain, 0 → `'` .
-- Maxterm `M_i`: OR of all vars, 0 on exactly one row. Bit 0 → plain, 1 → `'` .
-- `M_i = (m_i)'`.
+Majority example: F=1 when 2+ inputs are 1. Rows 3,5,6,7 are 1. Rows 0,1,2,4 are 0.
 
-| i | ABC | m_i | M_i |
+SOP: minterms from 1-rows. Bar the 0s.
+
+| Row | ABC | Minterm |
+|---|---|---|
+| 3 | 011 | `A'BC` |
+| 5 | 101 | `AB'C` |
+| 6 | 110 | `ABC'` |
+| 7 | 111 | `ABC` |
+
+```text
+F = A'BC + AB'C + ABC' + ABC = Σm(3,5,6,7)
+```
+
+POS: maxterms from 0-rows. Bar the 1s (reverse).
+
+| Row | ABC | Maxterm |
+|---|---|---|
+| 0 | 000 | `(A+B+C)` |
+| 1 | 001 | `(A+B+C')` |
+| 2 | 010 | `(A+B'+C)` |
+| 4 | 100 | `(A'+B+C)` |
+
+```text
+F = (A+B+C)(A+B+C')(A+B'+C)(A'+B+C) = ΠM(0,1,2,4)
+```
+
+|  | SOP | POS |
+|---|---|---|
+| Look at rows | F=1 | F=0 |
+| Piece | minterm (AND all) | maxterm (OR all) |
+| Bar when | 0 in row | 1 in row |
+| Join with | OR | AND |
+| Short | `Σm(...)` | `ΠM(...)` |
+
+Shortcut: Σm + ΠM = all rows. `Σm(1,3,6) = ΠM(0,2,4,5,7)`, `F' = Σm(0,2,4,5,7)`.
+
+Minterm/maxterm table (3 inputs):
+
+| Row | ABC | m | M |
 |---|---|---|---|
-| 0 | 000 | `A'B'C'` | `A+B+C` |
-| 1 | 001 | `A'B'C` | `A+B+C'` |
-| 2 | 010 | `A'BC'` | `A+B'+C` |
-| 3 | 011 | `A'BC` | `A+B'+C'` |
-| 4 | 100 | `AB'C'` | `A'+B+C` |
-| 5 | 101 | `AB'C` | `A'+B+C'` |
-| 6 | 110 | `ABC'` | `A'+B'+C` |
-| 7 | 111 | `ABC` | `A'+B'+C'` |
-
-## Canonical Forms
-
-- SOP: OR minterms where F=1. `F = Σm(1-rows)`.
-- POS: AND maxterms where F=0. `F = ΠM(0-rows)`.
-- Lists complement each other. `Σm(1,3,6) = ΠM(0,2,4,5,7)` for 3 vars.
-- n vars: `2^n` rows, `2^(2^n)` functions.
-
-```text
-XOR: Σm(1,2) = A'B + AB' | ΠM(0,3) = (A+B)(A'+B')
-Majority (3-var, 2+ ones): Σm(3,5,6,7) = A'BC+AB'C+ABC'+ABC = AB+BC+AC
-```
-
-Use SOP when fewer 1s, POS when fewer 0s.
+| 0 | 000 | `A'B'C'` | `(A+B+C)` |
+| 1 | 001 | `A'B'C` | `(A+B+C')` |
+| 2 | 010 | `A'BC'` | `(A+B'+C)` |
+| 3 | 011 | `A'BC` | `(A+B'+C')` |
+| 4 | 100 | `AB'C'` | `(A'+B+C)` |
+| 5 | 101 | `AB'C` | `(A'+B+C')` |
+| 6 | 110 | `ABC'` | `(A'+B'+C)` |
+| 7 | 111 | `ABC` | `(A'+B'+C')` |
 
 ---
 [Index](README.md) | [Next →](cheatsheet-2.md)
