@@ -26,7 +26,7 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 - [x] Git and GitHub — mid-May 2026 — notes: [git-github-notes/](git-github-notes/)
 - [x] Linux Command Line — May 23, 2026 — notes: [cmd-line-notes/](cmd-line-notes/)
 - [x] Python NumPy and DSA — Jun 4, 2026 — notes: [python-numpy-notes/](python-numpy-notes/)
-- [x] Boolean Algebra — Jul 17, 2026
+- [x] Boolean Algebra — Jul 17, 2026 — notes: [boolean-algebra-notes/](boolean-algebra-notes/)
 - [x] C++ Deep, learncpp.com full walkthrough — Aug 30, 2026 — notes: [cpp-deep-notes/](cpp-deep-notes/)
 - [x] Combinational Circuits — Sep 14, 2026
 - [x] Sequential Circuits — Oct 15, 2026
