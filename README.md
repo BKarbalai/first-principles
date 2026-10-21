@@ -6,7 +6,7 @@ A public log of building electrical engineering and computer science fundamental
 
 This is a self-directed curriculum built from the lowest useful abstraction upward. The premise: durable hardware understanding comes from reconstructing each layer, so software first, then digital logic, then RTL, then FPGA and architecture, then verification and VLSI.
 
-Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to early May 2026, completed early May 2026, alongside Git and GitHub, completed mid-May 2026, and Linux Command Line, completed May 23, 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026, then Combinational Circuits, completed Sep 14, 2026, then Sequential Circuits, completed Oct 15, 2026, then Finite State Machines, completed Oct 17, 2026. The current focus, Oct 2026, is Nand2Tetris (ongoing), with an active tech blog build for the October Monthly Challenge.
+Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to early May 2026, completed early May 2026, alongside Git and GitHub, completed mid-May 2026, and Linux Command Line, completed May 23, 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026, then Combinational Circuits, completed Sep 14, 2026, then Sequential Circuits, completed Oct 15, 2026, then Finite State Machines, completed Oct 17, 2026. The current focus, Oct 2026, is Nand2Tetris (ongoing), with the October Monthly Challenge tech blog now published.
 
 Phase 2 through Phase 4 are mapped below. Dates are added as each item is completed.
 
@@ -15,7 +15,6 @@ Dates below are actual completions. Items move from Next to Now to Log with date
 ## Now — Oct 2026
 
 - [ ] Nand2Tetris — ongoing, Oct 2026
-- [ ] Tech blog — Codédex October Monthly Challenge entry — writing in progress
 
 ## Log — Phase 1: Foundations
 
@@ -95,3 +94,4 @@ Math and circuits bridge:
 ## Current Projects
 
 - Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 Live: https://horizonprime.vercel.app
+- [**Late to the Loop**](https://www.codedex.io/community/monthly-challenge/submission/ftI5MDOaTUksxHFVpSg1) — Tech Blog for Codédex October Monthly Challenge, Oct 2026
