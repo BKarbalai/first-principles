@@ -95,3 +95,4 @@ Math and circuits bridge:
 
 - Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 Live: https://horizonprime.vercel.app
 - [**Late to the Loop**](https://www.codedex.io/community/monthly-challenge/submission/ftI5MDOaTUksxHFVpSg1) — Tech Blog for Codédex October Monthly Challenge, Oct 2026
+- [**Can I learn a degree worth of EE before univeristy**](https://www.codedex.io/community/monthly-challenge/submission/D6fYMuXM0CExotjmhG4k) - Tech Blog (2) for Codédex October Monthly Challenge, Oct 2026
