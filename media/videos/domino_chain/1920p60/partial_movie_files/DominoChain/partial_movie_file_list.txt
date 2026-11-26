@@ -1,0 +1,4 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/domino_chain/1920p60/partial_movie_files/DominoChain/41e7bf00356f03c75c6368aa81543e10004a594f71c708dedbc22d180f02f70e.mp4'
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/domino_chain/1920p60/partial_movie_files/DominoChain/41247569489b8818dfcc3ed5998499c0c197720cd82deec7948859521df69029.mp4'
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/domino_chain/1920p60/partial_movie_files/DominoChain/262707425adc6fd3f846af842f409a1bba1e50d78a16b983713b64e4cdf38a27.mp4'

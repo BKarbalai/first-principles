@@ -1,0 +1,4 @@
+# This file records the segment order used by Manim.
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/scene/480p15/partial_movie_files/MemoryArrow/0f79f60b34b7ea35a260cd2590e28068bdb4f009722d12b5a03ce113046c47c5.mp4'
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/scene/480p15/partial_movie_files/MemoryArrow/2a1fed791dab9505fcde56931d1324267206bea51764ed82b1c641e9f1b6a4cc.mp4'
+file 'file:C:/Users/Karbalai/Documents/GitHub/first-principles/media/videos/scene/480p15/partial_movie_files/MemoryArrow/c87f334c6db6baf51e3c8978071fa7aa00cde48a852a603bb489efbb24e2ebff.mp4'
