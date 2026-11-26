@@ -1,0 +1,98 @@
+# first-principles
+
+A public log of building electrical engineering and computer science fundamentals from first principles, from software to silicon, in preparation for a BSc in Electrical Engineering and a future PhD in Computer Architecture.
+
+## Summary
+
+This is a self-directed curriculum built from the lowest useful abstraction upward. The premise: durable hardware understanding comes from reconstructing each layer, so software first, then digital logic, then RTL, then FPGA and architecture, then verification and VLSI.
+
+Phase 1 establishes foundations. It began with Python 101, completed Dec 24, 2025, followed by Python Intermediate, completed Jan 17, 2026. Feb through Mar 2026 was a deliberate pause for Ramadan. Work resumed with C++ Basics through Advanced across Apr to early May 2026, completed early May 2026, alongside Git and GitHub, completed mid-May 2026, and Linux Command Line, completed May 23, 2026. From there the sequence was Python NumPy and data structures and algorithms, completed Jun 4, 2026, then Boolean Algebra, completed Jul 17, 2026, then a full C++ Deep walkthrough via learncpp.com, completed Aug 30, 2026, then Combinational Circuits, completed Sep 14, 2026, then Sequential Circuits, completed Oct 15, 2026, then Finite State Machines, completed Oct 17, 2026. The current focus, Nov 2026, is Nand2Tetris and Linear Algebra (both continuing). The October Monthly Challenge tech blog is now published.
+
+Phase 2 through Phase 4 are mapped below. Dates are added as each item is completed.
+
+Dates below are actual completions. Items move from Next to Now to Log with dates. Hardware builds get their own repos, linked under Projects.
+
+## Now — Nov 2026
+
+- [ ] Nand2Tetris — continuing, started Oct 2026
+- [ ] Linear Algebra — continuing, started Nov 2026 — notes: [linear-algebra-notes/](linear-algebra-notes/)
+
+## Log — Phase 1: Foundations
+
+- [x] Python 101 — Dec 24, 2025 — notes: [python-101-notes/](python-101-notes/)
+- [x] Python Intermediate — Jan 17, 2026
+- [x] C++ Basics — Apr 2026 — notes: [cpp-basics-notes/cheatsheet-1.md](cpp-basics-notes/cheatsheet-1.md)
+- [x] C++ Advanced — early May 2026 — notes: [cpp-basics-notes/cheatsheet-2.md](cpp-basics-notes/cheatsheet-2.md)
+- [x] Git and GitHub — mid-May 2026 — notes: [git-github-notes/](git-github-notes/)
+- [x] Linux Command Line — May 23, 2026 — notes: [cmd-line-notes/](cmd-line-notes/)
+- [x] Python NumPy and DSA — Jun 4, 2026 — notes: [python-numpy-notes/](python-numpy-notes/)
+- [x] Boolean Algebra — Jul 17, 2026 — notes: [boolean-algebra-notes/](boolean-algebra-notes/)
+- [x] C++ Deep, learncpp.com full walkthrough — Aug 30, 2026 — notes: [cpp-deep-notes/](cpp-deep-notes/)
+- [x] Combinational Circuits — Sep 14, 2026 — notes: [combinational-circuits-notes/](combinational-circuits-notes/)
+- [x] Sequential Circuits — Oct 15, 2026 — notes: [sequential-circuits-notes/](sequential-circuits-notes/)
+- [x] Finite State Machines — Oct 17, 2026
+
+Pause: Feb to Mar 2026 for Ramadan. Recorded here rather than hidden.
+
+## Next — Phase 1 remainder
+
+- [ ] Discrete Math
+- [ ] Fourier Transform
+- [ ] HDLBits and Verilog
+- [ ] 4-bit ALU in Verilog
+- [ ] FSM Traffic Light Controller in Verilog
+- [ ] UART Transmitter in Verilog
+
+## Phase 2 — FPGA and Computer Architecture
+
+- [ ] Basys3 FPGA + Xilinx Vivado workflow
+- [ ] SystemVerilog — interfaces, structs, enums, logic vs reg vs wire
+- [ ] 7-Segment Display Controller on FPGA
+- [ ] PWM Controller on FPGA
+- [ ] SystemVerilog — classes, objects, verification basics
+- [ ] VGA Display Driver on FPGA
+- [ ] Patterson and Hennessy Ch1-4
+- [ ] Simple 3-Stage Pipelined CPU on FPGA
+- [ ] AMBA Protocols — AXI, AHB, APB
+- [ ] gem5 simulator setup
+- [ ] Basic performance modeling — IPC, cache hit rate analysis
+- [ ] 50 LeetCode Problems
+
+Standards for Phase 2:
+- Every project on GitHub with README and waveform screenshots
+- Weekly reading — Semiconductor Engineering, WikiChip, IEEE Spectrum
+- Company awareness — ASML, NVIDIA, NXP, Intel, AMD, ARM, Qualcomm
+
+## Phase 3 — Advanced Design
+
+- [ ] RISC-V RV32I in SystemVerilog
+- [ ] Pipelining with hazard detection
+- [ ] Run RISC-V on Basys3 FPGA
+- [ ] Custom RISC-V ISA extension
+- [ ] UVM Basics
+- [ ] UVM Advanced — scoreboards, coverage, constrained random
+- [ ] 8 to 10 fully documented projects on GitHub
+
+Math and circuits bridge:
+
+- [ ] Series, Taylor series, Euler's formula, phasors (2 weeks)
+- [ ] Circuit analysis: nodal/mesh, Thevenin/Norton, RC/RL/RLC, op-amps (3 weeks)
+- [ ] Second-order ODEs and Laplace (3 weeks)
+
+## Phase 4 — VLSI and Advanced Architecture
+
+- [ ] Cache coherence — MESI protocol
+- [ ] High speed interfaces — PCIe, DDR5, AXI
+- [ ] HBM and memory architecture — HBM3, LPDDR5
+- [ ] Chiplet design — UCIe standard
+- [ ] Branch prediction techniques
+- [ ] Out-of-order execution concepts
+- [ ] Design space exploration project using gem5
+- [ ] Memory hierarchy optimization study
+- [ ] Accelerator design — small NN inference engine or similar
+
+## Current Projects
+
+- Horizon — Student OS — entry for Codédex Monthly Challenge: Back to School, Sep 2026 Live: https://horizonprime.vercel.app
+- [**Late to the Loop**](https://www.codedex.io/community/monthly-challenge/submission/ftI5MDOaTUksxHFVpSg1) — Tech Blog for Codédex October Monthly Challenge, Oct 2026
+- [**Can I learn a degree worth of EE before univeristy**](https://www.codedex.io/community/monthly-challenge/submission/D6fYMuXM0CExotjmhG4k) - Tech Blog (2) for Codédex October Monthly Challenge, Oct 2026
